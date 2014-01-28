@@ -7,7 +7,7 @@ $config = array
   );
 $fb = new facebook($config);
 $parametros=array(	
-	'redirect_uri'	=>	'http://joseluislunarubio.net/apiFace/miniAplicaciones/DatosBasicos/procesa.php',
+	'redirect_uri'	=>	'URL/procesa.php',
 	);
 $url= $fb->getLoginUrl($parametros);
 ?>
